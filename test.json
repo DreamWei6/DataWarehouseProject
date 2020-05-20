@@ -1,0 +1,213 @@
+{
+  "copyright": "Copyright 2020 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "totalItems": 1,
+  "totalEvents": 0,
+  "totalGames": 1,
+  "totalGamesInProgress": 0,
+  "dates": [
+    {
+      "date": "2009-04-05",
+      "totalItems": 1,
+      "totalEvents": 0,
+      "totalGames": 1,
+      "totalGamesInProgress": 0,
+      "games": [
+        {
+          "gamePk": 244193,
+          "link": "/api/v1.1/game/244193/feed/live",
+          "gameType": "R",
+          "season": "2009",
+          "gameDate": "2009-04-06T00:00:00Z",
+          "officialDate": "2009-04-05",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 1,
+                "losses": 0,
+                "pct": "1.000"
+              },
+              "score": 4,
+              "team": {
+                "id": 144,
+                "name": "Atlanta Braves",
+                "link": "/api/v1/teams/144"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 1
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 0,
+                "losses": 1,
+                "pct": ".000"
+              },
+              "score": 1,
+              "team": {
+                "id": 143,
+                "name": "Philadelphia Phillies",
+                "link": "/api/v1/teams/143"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 1
+            }
+          },
+          "venue": {
+            "id": 2681,
+            "name": "Citizens Bank Park",
+            "link": "/api/v1/venues/2681"
+          },
+          "content": {
+            "link": "/api/v1/game/244193/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "E",
+          "tiebreaker": "N",
+          "calendarEventID": "14-244193-2009-04-05",
+          "seasonDisplay": "2009",
+          "dayNight": "night",
+          "description": "Phillies home opener",
+          "scheduledInnings": 9,
+          "inningBreakLength": 0,
+          "gamesInSeries": 3,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Regular Season",
+          "homeRuns": [
+            {
+              "result": {
+                "type": "atBat",
+                "event": "Home Run",
+                "description": "Brian McCann homers (1) on a fly ball to right field.    Chipper Jones scores.",
+                "rbi": 2,
+                "awayScore": 2,
+                "homeScore": 0
+              },
+              "about": {
+                "halfInning": "top",
+                "inning": 1
+              },
+              "count": {
+                "balls": 2,
+                "strikes": 0,
+                "outs": 2
+              },
+              "matchup": {
+                "batter": {
+                  "id": 435263,
+                  "fullName": "Brian McCann",
+                  "link": "/api/v1/people/435263"
+                },
+                "pitcher": {
+                  "id": 408206,
+                  "fullName": "Brett Myers",
+                  "link": "/api/v1/people/408206"
+                },
+                "batterHotColdZones": [],
+                "pitcherHotColdZones": [],
+                "splits": {}
+              },
+              "pitchIndex": [],
+              "actionIndex": [],
+              "runnerIndex": [],
+              "runners": [],
+              "playEvents": []
+            },
+            {
+              "result": {
+                "type": "atBat",
+                "event": "Home Run",
+                "description": "Jeff Francoeur homers (1) on a line drive to left field.",
+                "rbi": 1,
+                "awayScore": 3,
+                "homeScore": 0
+              },
+              "about": {
+                "halfInning": "top",
+                "inning": 2
+              },
+              "count": {
+                "balls": 0,
+                "strikes": 0,
+                "outs": 0
+              },
+              "matchup": {
+                "batter": {
+                  "id": 425796,
+                  "fullName": "Jeff Francoeur",
+                  "link": "/api/v1/people/425796"
+                },
+                "pitcher": {
+                  "id": 408206,
+                  "fullName": "Brett Myers",
+                  "link": "/api/v1/people/408206"
+                },
+                "batterHotColdZones": [],
+                "pitcherHotColdZones": [],
+                "splits": {}
+              },
+              "pitchIndex": [],
+              "actionIndex": [],
+              "runnerIndex": [],
+              "runners": [],
+              "playEvents": []
+            },
+            {
+              "result": {
+                "type": "atBat",
+                "event": "Home Run",
+                "description": "Jordan Schafer homers (1) on a fly ball to center field.",
+                "rbi": 1,
+                "awayScore": 4,
+                "homeScore": 0
+              },
+              "about": {
+                "halfInning": "top",
+                "inning": 2
+              },
+              "count": {
+                "balls": 3,
+                "strikes": 1,
+                "outs": 1
+              },
+              "matchup": {
+                "batter": {
+                  "id": 457788,
+                  "fullName": "Jordan Schafer",
+                  "link": "/api/v1/people/457788"
+                },
+                "pitcher": {
+                  "id": 408206,
+                  "fullName": "Brett Myers",
+                  "link": "/api/v1/people/408206"
+                },
+                "batterHotColdZones": [],
+                "pitcherHotColdZones": [],
+                "splits": {}
+              },
+              "pitchIndex": [],
+              "actionIndex": [],
+              "runnerIndex": [],
+              "runners": [],
+              "playEvents": []
+            }
+          ],
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        }
+      ],
+      "events": []
+    }
+  ]
+}

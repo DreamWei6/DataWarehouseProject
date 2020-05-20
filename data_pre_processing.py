@@ -22,9 +22,9 @@ def CurrentTime():
 def main():
 	config = SettingConfig();
 	schedules = [item[1] for item in config.items('Schedule')]
-	
+	#print(schedules)
 	for schedule in schedules:
-		url = 'https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=' + schedule.split(',')[0] + '&endDate=' + schedule.split(',')[1] + '&gameType=R&&gameType=P&&gameType=L&&gameType=W&hydrate=homeRuns'
+		url = 'https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=' + schedule.split(',')[0] + '&endDate=' + schedule.split(',')[1] + '&gameType=R&&gameType=D&&gameType=W&&gameType=L&hydrate=homeRuns'
 
 		try:
 			r = requests.get(url)

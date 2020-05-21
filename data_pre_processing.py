@@ -23,6 +23,9 @@ def main():
 	config = SettingConfig();
 	schedules = [item[1] for item in config.items('Schedule')]
 	#print(schedules)
+
+	Write2File(config['CSV']['output_path'], ['Date', 'GameType', 'AwayScore', 'AwayTeam', 'HomeScore', 'HomeTeam', 'VenueName', 'AwayHR', 'HomeHR'])
+
 	for schedule in schedules:
 		url = 'https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=' + schedule.split(',')[0] + '&endDate=' + schedule.split(',')[1] + '&gameType=R&&gameType=D&&gameType=W&&gameType=L&hydrate=homeRuns'
 
@@ -34,7 +37,7 @@ def main():
 			r = requests.get(url)
 			data = json.loads(r.text)
 
-		get_list = ['Date', 'Game Type', 'Away Score', 'Away Team', 'Home Score', 'Home Team', 'Venue Name', 'Away HR', 'Home HR']
+		get_list = ['Date', 'GameType', 'AwayScore', 'AwayTeam', 'HomeScore', 'HomeTeam', 'VenueName', 'AwayHR', 'HomeHR']
 		teamHomeRuns = [0,0]
 
 		print(data['totalGames'])
